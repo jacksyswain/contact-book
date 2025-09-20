@@ -1,4 +1,4 @@
-const API = "http://localhost:5020/contacts";
+const API = "https://contact-book-9yyp.onrender.com/contacts";
 
 export const fetchContacts = async (page=1) => {
   const res = await fetch(`${API}?page=${page}&limit=5`);
